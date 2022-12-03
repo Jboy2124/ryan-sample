@@ -4,12 +4,16 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        poppins: ['Poppins', 'sans-serif;']
+        poppins: ['Poppins', 'sans-serif;'],
+        frekoda: ['Fredoka One', 'cursive;'],
+        secular: ['Secular One', 'sans-serif;']
       },
       colors: {
-        primary: '#5D8BF4',
-        secondary: '#051367',
-        backGround: '#EEF1FF'
+        primary: '#8186D5',
+        secondary: '#494CA2',
+        backGround: '#EEF1FF',
+        textColor: '#fff',
+        hoverColor: '#F5B0CB'
       },
       screens: {
         mobile: { min: '320px', max: '425px' },
